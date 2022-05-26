@@ -1,2 +1,9 @@
 # data folder
 data
+
+# cache
+__pycache__
+.pytest_cache
+
+# env
+.env
