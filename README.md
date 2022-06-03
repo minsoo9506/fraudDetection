@@ -33,3 +33,10 @@
   - https://jehyunlee.github.io/2022/05/24/Python-DS-101-kierlecture2/
 - tox
   - https://christophergs.com/python/2020/04/12/python-tox-why-use-it-and-tutorial/
+- pydantic
+  - Data validation and settings management using python type annotations
+  - https://pydantic-docs.helpmanual.io/
+  - https://velog.io/@kjh03160/Type-Hinting
+- strinctyaml
+  - type-safe YAML parser that parses and validates a restricted subset of the YAML specification
+  - https://github.com/crdoconnor/strictyaml
