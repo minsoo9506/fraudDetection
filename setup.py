@@ -3,7 +3,7 @@ from pathlib import Path
 from setuptools import find_packages, setup
 
 # Package meta-data
-NAME = "fraud-detection-model"
+NAME = "fraud_detection_model"
 DESCRIPTION = "Fraud detection model deployment project"
 EMAIL = "ghktjd15gh@gmail.com"
 AUTHOR = "minsoo9506"
@@ -12,8 +12,8 @@ REQUIRES_PYTHON = "==3.9.13"
 # Load the package's VERSION file as a dictionary
 about = {}
 ROOT_DIR = Path(__file__).resolve().parent
-REQUIREMENTS_DIR = ROOT_DIR / 'requirements'
-PACKAGE_DIR = ROOT_DIR / 'model'
+REQUIREMENTS_DIR = ROOT_DIR / "requirements"
+PACKAGE_DIR = ROOT_DIR / "fraud_detection_model"
 with open(PACKAGE_DIR / "VERSION") as f:
     _version = f.read().strip()
     about["__version__"] = _version
@@ -22,6 +22,7 @@ with open(PACKAGE_DIR / "VERSION") as f:
 def list_reqs(fname="requirements.txt"):
     with open(REQUIREMENTS_DIR / fname) as fd:
         return fd.read().splitlines()
+
 
 # setup
 setup(
@@ -32,9 +33,9 @@ setup(
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     packages=find_packages(exclude=("test",)),
-    package_data={"model": ["VERSION"]},
+    package_data={"fraud_detection_model": ["VERSION"]},
     install_requires=list_reqs(),
     extras_require={},
-    include_package_data=False,
-    license="MIT"
+    include_package_data=True,
+    license="MIT",
 )
