@@ -1,9 +1,16 @@
 # data folder
 data
+*.csv
 
 # cache
 __pycache__
 .pytest_cache
 
+# tox
+.tox
+
 # env
 .env
+
+# python-version
+.python-version
