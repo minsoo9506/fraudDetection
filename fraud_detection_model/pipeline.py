@@ -1,11 +1,10 @@
-from sklearn.linear_model import LogisticRegression
 from imblearn.over_sampling import SMOTE
 from imblearn.pipeline import Pipeline
+from sklearn.linear_model import LogisticRegression
 
 from fraud_detection_model.config.core import config
 
-
-fraud_detection_model = Pipeline(
+fraud_detection_model_pipe = Pipeline(
     [
         (
             "SMOTE",

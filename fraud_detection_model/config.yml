@@ -2,7 +2,7 @@ package_name: fraud_detection_model
 
 # data
 train_data_file: train.csv
-valid_data_file: valid.csv
+test_data_file: valid.csv
 
 # variable
 target: Class
