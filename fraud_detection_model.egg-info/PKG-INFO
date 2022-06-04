@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: fraud-detection-model
+Version: 0.0.1
+Summary: Fraud detection model deployment project
+Author: minsoo9506
+Author-email: ghktjd15gh@gmail.com
+License: MIT
+Requires-Python: ==3.9.13
