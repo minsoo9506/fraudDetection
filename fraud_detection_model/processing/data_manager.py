@@ -6,8 +6,7 @@ import pandas as pd
 from imblearn.pipeline import Pipeline
 
 from fraud_detection_model import __version__ as _version
-from fraud_detection_model.config.core import (DATASET_DIR, TRAINED_MODEL_DIR,
-                                               config)
+from fraud_detection_model.config.core import DATASET_DIR, TRAINED_MODEL_DIR, config
 
 
 # 아래 함수 인자에 *는 함수를 사용할 떄, 뒤에 나오는 file_name= 을 꼭 쓰게 강제한다
